@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./index.css">
+  <script src="./index.js" defer></script>
+  <title>Frontend Mentor | Time tracking dashboard</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="categories">
+        <div class="admindiv slot">
+          <div class="userinfo">
+            <img src="./images/image-jeremy.png">
+            <span>Report for </br><a>Jeremy Robson</a></span>
+          </div>
+          <div class="timescales">
+            <button class="daily" onclick="checkInput(this)">Daily</button>
+            <button class="weekly" onclick="checkInput(this)">Weekly</button>
+            <button class="monthly" onclick="checkInput(this)">Monthly</button>
+          </div>
+        </div>
+      <div class="slot">
+        <div class="category work">
+        <img class="labelImg" src="./images/icon-work.svg">
+      </div>
+      <div class="label">
+          <span class="categoryName">Work</span>
+          <button><img class="dotsImg" src="./images/icon-ellipsis.svg"></button>
+          <span class="time">5hrs</span>
+          <span class="previously">Previous - 7hrs</span>
+      </div></div>
+      <div class="slot">
+        <div class="category play">
+          <img class="labelImg" src="./images/icon-play.svg">
+        </div>
+        <div class="label">
+          <span class="categoryName">Play</span>
+          <button><img class="dotsImg" src="./images/icon-ellipsis.svg"></button>
+          <span class="time">10hrs</span>
+          <span class="previously">Previous - 2hrs</span>
+        </div>
+      </div>
+      <div class="slot">
+        <div class="category study">
+          <img class="labelImg" src="./images/icon-study.svg">
+        </div>
+        <div class="label">
+          <span class="categoryName">Study</span>
+          <button><img class="dotsImg" src="./images/icon-ellipsis.svg"></button>
+          <span class="time">12hrs</span>
+          <span class="previously">Previous - 7hrs</span>
+        </div>
+      </div>
+      <div class="slot">
+        <div class="category exercise">
+          <img class="labelImg" src="./images/icon-exercise.svg">
+        </div>
+        <div class="label">
+          <span class="categoryName">Exercise</span>
+          <button><img class="dotsImg" src="./images/icon-ellipsis.svg"></button>
+          <span class="time">41hrs</span>
+          <span class="previously">Previous - 33hrs</span>
+        </div>
+      </div>
+      <div class="slot">
+        <div class="category social">
+          <img class="labelImg" src="./images/icon-social.svg">
+        </div>
+        <div class="label">
+          <span class="categoryName">Social</span>
+          <button><img class="dotsImg" src="./images/icon-ellipsis.svg"></button>
+          <span class="time">2hrs</span>
+          <span class="previously">Previous - 31hrs</span>
+        </div>
+      </div>
+      <div class="slot">
+        <div class="category self-care">
+          <img class="labelImg" src="./images/icon-self-care.svg">
+        </div>
+        <div class="label">
+          <span class="categoryName">Self Care</span>
+          <button><img class="dotsImg" src="./images/icon-ellipsis.svg"></button>
+          <span class="time">10hrs</span>
+          <span class="previously">Previous - 12hrs</span>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
